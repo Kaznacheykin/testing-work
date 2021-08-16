@@ -32,11 +32,16 @@
 .notifications-list__li.third-style{
     border-radius: 64px;
     padding: 28px;
+    background: #000;
     margin: 20px 0px;
     box-shadow: 0px 0px 13px 2px #00f399;
 }
 .third-style .notifications-list__li-title{
+    color: #fff;
     padding-bottom: 7px;
     margin-bottom: 8px;
     border-bottom: 1px solid #00f399;
+}
+.third-style .notifications-list__li-description{
+    color: #fff;
 }
