@@ -1,0 +1,47 @@
+#app{
+    display: flex;
+    justify-content: center;
+}
+.notifications-list{
+    width: 700px;
+    list-style: none;
+    padding-left: 0px;  
+}
+.notifications-list__li.first-style{
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 13px 2px #a7a7a7;
+}
+.first-style .notifications-list__li-title{
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.notifications-list__li.second-style{
+    border-radius: 0px;
+    padding: 15px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 13px 2px #de0000;
+}
+.second-style .notifications-list__li-title{
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #de0000;
+}
+.notifications-list__li.third-style{
+    border-radius: 64px;
+    padding: 28px;
+    background: #000;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 13px 2px #00f399;
+}
+.third-style .notifications-list__li-title{
+    color: #fff;
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #00f399;
+}
+.third-style .notifications-list__li-description{
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уведомления на vue.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <ul class="notifications-list">
+            <li v-for="value in notifications" class="notifications-list__li" :class="[value.style]">
+                <div class= "notifications-list__li-title">
+                    {{ value.title }}
+                </div>
+                <div class="notifications-list__li-description" >
+                    {{ value.description }}
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src = "vue.js"></script>     
+</body>
+</html>
